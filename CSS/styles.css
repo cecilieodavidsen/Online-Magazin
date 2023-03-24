@@ -1,0 +1,89 @@
+body {background-color: #F8E7EF;}
+
+#logo1{
+    width: 40%;
+    padding: 1px;
+    transform: scaleX(-1);
+    float:left;
+    margin-left: 50px;
+
+}
+
+/** menu design **/
+
+.bar{
+height: 2px;
+background-color: black;
+margin-top: 1px; 
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    color: #FD5E5F;
+
+}
+
+/** nav menu **/
+
+nav {
+    position: relative;
+    top: 50%;
+    text-align: right;
+    margin-left: auto;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#Titel1 {
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+
+/** Tekst forside **/
+
+
+.forside{
+   display: flex; 
+}
+
+#secondhome{
+color:#FD5E5F;
+font-size: 50px;
+text-align: center;
+float: left;
+width: 60%;
+justify-content: space-between;
+margin-top: 70px;
+}
+
+/** billede forside**/
+
+#lilletorv{
+    float: right;
+    width: 60%;
+    justify-content: space-between;
+    margin-left: -30%;
+    margin-top: -20px;
+}
+
+#torvbillede{
+    width: 6px;
+    height: 6px;  
+}
+
+
+
